@@ -1,6 +1,6 @@
  import React from "react";
 import { useDispatch } from "react-redux";
-import UseIsProductInWishlist from "./UseIsProductInWishList";
+import UseIsProductInWishlist from "../Hooks/UseIsProductInWishList";
 import { addToWishList,removeFromWishList } from "../app/ProductSlice";
  const UseWishlistProduct=(productData)=>{
     console.log(productData)
